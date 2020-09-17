@@ -10,7 +10,7 @@ int main()
 {
     char *str;
     str = readline("Enter your name: ");
-    printf("Hello,%s!\n", str);
+    printf("Hello, %s!\n", str);
     free(str);
     return 0;
 }
